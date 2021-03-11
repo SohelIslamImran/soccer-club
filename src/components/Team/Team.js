@@ -17,11 +17,11 @@ const League = (props) => {
             <Card className="shadow rounded border-0" style={{ width: '15rem' }}>
                 <Card.Img className="p-4" variant="top" src={strTeamBadge} />
                 <Card.Body>
-                    <Card.Title>{strTeam}</Card.Title>
+                    <Card.Title style={{ fontWeight: "700" }}>{strTeam}</Card.Title>
                     <Card.Text>Sports type: {strSport}</Card.Text>
                     <Button onClick={() => handleClick(idTeam)} style={{ boxShadow: 'none' }} variant="primary">
-                        Explore {' '}
-                        <FontAwesomeIcon icon={faArrowRight} />
+                        Explore
+                        <FontAwesomeIcon style={{ marginLeft: ".8rem" }} icon={faArrowRight} />
                     </Button>
                 </Card.Body>
             </Card>

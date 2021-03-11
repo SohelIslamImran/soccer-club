@@ -56,7 +56,7 @@ const TeamDetails = () => {
                 </Card>
             </Container>
             <Container className="d-flex justify-content-center">
-                <Card className="mb-3" style={{ maxWidth: "900px", background: "#450861" }}>
+                <Card className="mb-3 shadow" style={{ maxWidth: "900px", background: "#450861" }}>
                     <Row className="g-0">
                         <Col md={7}>
                             <Card.Body style={{ color: "white", fontWeight: "600" }}>
@@ -81,8 +81,8 @@ const TeamDetails = () => {
                         </Col>
                         <Col md={5}>
                             {
-                                strGender === 'Female' ? <img className="w-100" src={FemaleTeamImg} alt="..." />
-                                                       : <img className="w-100" src={MaleTeamImg} alt="..." />
+                                strGender === 'Male' ? <img className="w-100" src={MaleTeamImg} alt="..." />
+                                                       : <img className="w-100" src={FemaleTeamImg} alt="..." />
                             }
                         </Col>
                     </Row>
@@ -101,13 +101,13 @@ const TeamDetails = () => {
                 </Row>
                 <Row className="d-flex justify-content-center my-3">
                     <a href={`https://${strTwitter}`} target="_blank" rel="noopener noreferrer">
-                        <img style={{ maxWidth: "60px" }} src={TwitterIcon} alt="" />
+                        <img style={{ maxWidth: "50px" }} src={TwitterIcon} alt="" />
                     </a>
                     <a href={`https://${strFacebook}`} target="_blank" rel="noopener noreferrer">
-                        <img style={{ maxWidth: "60px", margin: "0 10px" }} src={FacebookIcon} alt="" />
+                        <img style={{ maxWidth: "50px", margin: "0 10px" }} src={FacebookIcon} alt="" />
                     </a>
                     <a href={`https://${strYoutube}`} target="_blank" rel="noopener noreferrer">
-                        <img style={{ maxWidth: "60px" }} src={YouTubeIcon} alt="" />
+                        <img style={{ maxWidth: "50px" }} src={YouTubeIcon} alt="" />
                     </a>
                 </Row>
             </Container>
