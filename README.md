@@ -10,7 +10,9 @@
 - There is a Homepage. In the homepage, it has a banner and boxes of teams with team logo, team name, team type and a button named explore.
 - If you click on the explore button, you will be taken to the next page to view team details.
 - In the team details page, there has a dynamic banner, and a small banner with the team name, details and team picture. And it also has tow description and a footer of some social icon with links.
-- And it also have a Navbar with a logo and the site name.
+- And it also have a Navbar with a logo and the site name and a home navigation button.
+- The website is dynamically route change with url.
+- And there is a 404 - PAGE NOT FOUND section if anyone type wrong url that is not have any page in website.
 
 
 

@@ -82,7 +82,7 @@ const TeamDetails = () => {
                         <Col md={5}>
                             {
                                 strGender === 'Male' ? <img className="w-100" src={MaleTeamImg} alt="..." />
-                                                       : <img className="w-100" src={FemaleTeamImg} alt="..." />
+                                                     : <img className="w-100" src={FemaleTeamImg} alt="..." />
                             }
                         </Col>
                     </Row>
