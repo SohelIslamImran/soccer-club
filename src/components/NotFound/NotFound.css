@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
 #notFound {
   position: relative;
   height: 100vh;
@@ -47,7 +49,7 @@
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 15px;
 }
 
 .notFound p {
